@@ -10,7 +10,7 @@ import items
 import enemies
 
 
-def show_info():
+def info():
     while True:
         print("""
 Choose one of the following actions:
@@ -48,4 +48,4 @@ Choose one of the following actions:
         else:
             print("Invalid action!")
 
-show_info()
+info()
